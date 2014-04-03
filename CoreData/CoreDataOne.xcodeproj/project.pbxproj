@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF445D5218E2B57F00599FB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF445D5118E2B57F00599FB6 /* Foundation.framework */; };
+		EF445D5418E2B57F00599FB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF445D5318E2B57F00599FB6 /* CoreGraphics.framework */; };
+		EF445D5618E2B57F00599FB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF445D5518E2B57F00599FB6 /* UIKit.framework */; };
+		EF445D5C18E2B57F00599FB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF445D5A18E2B57F00599FB6 /* InfoPlist.strings */; };
+		EF445D5E18E2B57F00599FB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF445D5D18E2B57F00599FB6 /* main.m */; };
+		EF445D6218E2B57F00599FB6 /* JTTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF445D6118E2B57F00599FB6 /* JTTAppDelegate.m */; };
+		EF445D6518E2B57F00599FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF445D6318E2B57F00599FB6 /* Main.storyboard */; };
+		EF445D6818E2B57F00599FB6 /* JTTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF445D6718E2B57F00599FB6 /* JTTViewController.m */; };
+		EF445D6A18E2B57F00599FB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF445D6918E2B57F00599FB6 /* Images.xcassets */; };
+		EF445D7118E2B57F00599FB6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF445D7018E2B57F00599FB6 /* XCTest.framework */; };
+		EF445D7218E2B57F00599FB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF445D5118E2B57F00599FB6 /* Foundation.framework */; };
+		EF445D7318E2B57F00599FB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF445D5518E2B57F00599FB6 /* UIKit.framework */; };
+		EF445D7B18E2B57F00599FB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF445D7918E2B57F00599FB6 /* InfoPlist.strings */; };
+		EF445D7D18E2B57F00599FB6 /* CoreDataOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF445D7C18E2B57F00599FB6 /* CoreDataOneTests.m */; };
+		EF445D8918E2B5AA00599FB6 /* CoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF445D8718E2B5AA00599FB6 /* CoreDataStorage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF445D8C18E2B5C300599FB6 /* JTTAppLogic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF445D8A18E2B5C300599FB6 /* JTTAppLogic.xcdatamodeld */; };
+		EF445D8F18E2B64000599FB6 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = EF445D8E18E2B64000599FB6 /* Teacher.m */; };
+		EF445D9218E2B64100599FB6 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = EF445D9118E2B64100599FB6 /* Student.m */; };
+		EF445D9518E2B6E000599FB6 /* JTTAppLogicCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = EF445D9418E2B6E000599FB6 /* JTTAppLogicCoreDataStorage.m */; };
+		EF4DF8D318E3CFA100A56BDA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4DF8D218E3CFA100A56BDA /* CoreData.framework */; };
+		EF5462BB18E3FF8E000F4CF2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5462BA18E3FF8E000F4CF2 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF445D7418E2B57F00599FB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF445D4618E2B57F00599FB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF445D4D18E2B57F00599FB6;
+			remoteInfo = CoreDataOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF445D4E18E2B57F00599FB6 /* CoreDataOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF445D5118E2B57F00599FB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF445D5318E2B57F00599FB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF445D5518E2B57F00599FB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF445D5918E2B57F00599FB6 /* CoreDataOne-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataOne-Info.plist"; sourceTree = "<group>"; };
+		EF445D5B18E2B57F00599FB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF445D5D18E2B57F00599FB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF445D5F18E2B57F00599FB6 /* CoreDataOne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataOne-Prefix.pch"; sourceTree = "<group>"; };
+		EF445D6018E2B57F00599FB6 /* JTTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTTAppDelegate.h; sourceTree = "<group>"; };
+		EF445D6118E2B57F00599FB6 /* JTTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTTAppDelegate.m; sourceTree = "<group>"; };
+		EF445D6418E2B57F00599FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF445D6618E2B57F00599FB6 /* JTTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTTViewController.h; sourceTree = "<group>"; };
+		EF445D6718E2B57F00599FB6 /* JTTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTTViewController.m; sourceTree = "<group>"; };
+		EF445D6918E2B57F00599FB6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF445D6F18E2B57F00599FB6 /* CoreDataOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF445D7018E2B57F00599FB6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF445D7818E2B57F00599FB6 /* CoreDataOneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataOneTests-Info.plist"; sourceTree = "<group>"; };
+		EF445D7A18E2B57F00599FB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF445D7C18E2B57F00599FB6 /* CoreDataOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataOneTests.m; sourceTree = "<group>"; };
+		EF445D8618E2B5AA00599FB6 /* CoreDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStorage.h; sourceTree = SOURCE_ROOT; };
+		EF445D8718E2B5AA00599FB6 /* CoreDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStorage.m; sourceTree = SOURCE_ROOT; };
+		EF445D8818E2B5AA00599FB6 /* CoreDataStorageProtected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStorageProtected.h; sourceTree = SOURCE_ROOT; };
+		EF445D8B18E2B5C300599FB6 /* JTTAppLogic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JTTAppLogic.xcdatamodel; sourceTree = "<group>"; };
+		EF445D8D18E2B64000599FB6 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		EF445D8E18E2B64000599FB6 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		EF445D9018E2B64100599FB6 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		EF445D9118E2B64100599FB6 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		EF445D9318E2B6E000599FB6 /* JTTAppLogicCoreDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTAppLogicCoreDataStorage.h; sourceTree = "<group>"; };
+		EF445D9418E2B6E000599FB6 /* JTTAppLogicCoreDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTAppLogicCoreDataStorage.m; sourceTree = "<group>"; };
+		EF4DF8D218E3CFA100A56BDA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EF5462BA18E3FF8E000F4CF2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF445D4B18E2B57F00599FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5462BB18E3FF8E000F4CF2 /* MediaPlayer.framework in Frameworks */,
+				EF4DF8D318E3CFA100A56BDA /* CoreData.framework in Frameworks */,
+				EF445D5418E2B57F00599FB6 /* CoreGraphics.framework in Frameworks */,
+				EF445D5618E2B57F00599FB6 /* UIKit.framework in Frameworks */,
+				EF445D5218E2B57F00599FB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF445D6C18E2B57F00599FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF445D7118E2B57F00599FB6 /* XCTest.framework in Frameworks */,
+				EF445D7318E2B57F00599FB6 /* UIKit.framework in Frameworks */,
+				EF445D7218E2B57F00599FB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF445D4518E2B57F00599FB6 = {
+			isa = PBXGroup;
+			children = (
+				EF445D5718E2B57F00599FB6 /* CoreDataOne */,
+				EF445D7618E2B57F00599FB6 /* CoreDataOneTests */,
+				EF445D5018E2B57F00599FB6 /* Frameworks */,
+				EF445D4F18E2B57F00599FB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF445D4F18E2B57F00599FB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF445D4E18E2B57F00599FB6 /* CoreDataOne.app */,
+				EF445D6F18E2B57F00599FB6 /* CoreDataOneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF445D5018E2B57F00599FB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF5462BA18E3FF8E000F4CF2 /* MediaPlayer.framework */,
+				EF4DF8D218E3CFA100A56BDA /* CoreData.framework */,
+				EF445D5118E2B57F00599FB6 /* Foundation.framework */,
+				EF445D5318E2B57F00599FB6 /* CoreGraphics.framework */,
+				EF445D5518E2B57F00599FB6 /* UIKit.framework */,
+				EF445D7018E2B57F00599FB6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF445D5718E2B57F00599FB6 /* CoreDataOne */ = {
+			isa = PBXGroup;
+			children = (
+				EF445D6018E2B57F00599FB6 /* JTTAppDelegate.h */,
+				EF445D6118E2B57F00599FB6 /* JTTAppDelegate.m */,
+				EF445D6318E2B57F00599FB6 /* Main.storyboard */,
+				EF445D6618E2B57F00599FB6 /* JTTViewController.h */,
+				EF445D6718E2B57F00599FB6 /* JTTViewController.m */,
+				EF445D9318E2B6E000599FB6 /* JTTAppLogicCoreDataStorage.h */,
+				EF445D9418E2B6E000599FB6 /* JTTAppLogicCoreDataStorage.m */,
+				EF445D8618E2B5AA00599FB6 /* CoreDataStorage.h */,
+				EF445D8718E2B5AA00599FB6 /* CoreDataStorage.m */,
+				EF445D8818E2B5AA00599FB6 /* CoreDataStorageProtected.h */,
+				EF445D6918E2B57F00599FB6 /* Images.xcassets */,
+				EF445D5818E2B57F00599FB6 /* Supporting Files */,
+				EF445D8A18E2B5C300599FB6 /* JTTAppLogic.xcdatamodeld */,
+				EF445D9018E2B64100599FB6 /* Student.h */,
+				EF445D9118E2B64100599FB6 /* Student.m */,
+				EF445D8D18E2B64000599FB6 /* Teacher.h */,
+				EF445D8E18E2B64000599FB6 /* Teacher.m */,
+			);
+			path = CoreDataOne;
+			sourceTree = "<group>";
+		};
+		EF445D5818E2B57F00599FB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF445D5918E2B57F00599FB6 /* CoreDataOne-Info.plist */,
+				EF445D5A18E2B57F00599FB6 /* InfoPlist.strings */,
+				EF445D5D18E2B57F00599FB6 /* main.m */,
+				EF445D5F18E2B57F00599FB6 /* CoreDataOne-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF445D7618E2B57F00599FB6 /* CoreDataOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF445D7C18E2B57F00599FB6 /* CoreDataOneTests.m */,
+				EF445D7718E2B57F00599FB6 /* Supporting Files */,
+			);
+			path = CoreDataOneTests;
+			sourceTree = "<group>";
+		};
+		EF445D7718E2B57F00599FB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF445D7818E2B57F00599FB6 /* CoreDataOneTests-Info.plist */,
+				EF445D7918E2B57F00599FB6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF445D4D18E2B57F00599FB6 /* CoreDataOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF445D8018E2B57F00599FB6 /* Build configuration list for PBXNativeTarget "CoreDataOne" */;
+			buildPhases = (
+				EF445D4A18E2B57F00599FB6 /* Sources */,
+				EF445D4B18E2B57F00599FB6 /* Frameworks */,
+				EF445D4C18E2B57F00599FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataOne;
+			productName = CoreDataOne;
+			productReference = EF445D4E18E2B57F00599FB6 /* CoreDataOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF445D6E18E2B57F00599FB6 /* CoreDataOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF445D8318E2B57F00599FB6 /* Build configuration list for PBXNativeTarget "CoreDataOneTests" */;
+			buildPhases = (
+				EF445D6B18E2B57F00599FB6 /* Sources */,
+				EF445D6C18E2B57F00599FB6 /* Frameworks */,
+				EF445D6D18E2B57F00599FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF445D7518E2B57F00599FB6 /* PBXTargetDependency */,
+			);
+			name = CoreDataOneTests;
+			productName = CoreDataOneTests;
+			productReference = EF445D6F18E2B57F00599FB6 /* CoreDataOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF445D4618E2B57F00599FB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JTT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Julius;
+				TargetAttributes = {
+					EF445D4D18E2B57F00599FB6 = {
+						DevelopmentTeam = YC29229DBR;
+					};
+					EF445D6E18E2B57F00599FB6 = {
+						TestTargetID = EF445D4D18E2B57F00599FB6;
+					};
+				};
+			};
+			buildConfigurationList = EF445D4918E2B57F00599FB6 /* Build configuration list for PBXProject "CoreDataOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF445D4518E2B57F00599FB6;
+			productRefGroup = EF445D4F18E2B57F00599FB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF445D4D18E2B57F00599FB6 /* CoreDataOne */,
+				EF445D6E18E2B57F00599FB6 /* CoreDataOneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF445D4C18E2B57F00599FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF445D6A18E2B57F00599FB6 /* Images.xcassets in Resources */,
+				EF445D5C18E2B57F00599FB6 /* InfoPlist.strings in Resources */,
+				EF445D6518E2B57F00599FB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF445D6D18E2B57F00599FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF445D7B18E2B57F00599FB6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF445D4A18E2B57F00599FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF445D9518E2B6E000599FB6 /* JTTAppLogicCoreDataStorage.m in Sources */,
+				EF445D8F18E2B64000599FB6 /* Teacher.m in Sources */,
+				EF445D8918E2B5AA00599FB6 /* CoreDataStorage.m in Sources */,
+				EF445D5E18E2B57F00599FB6 /* main.m in Sources */,
+				EF445D8C18E2B5C300599FB6 /* JTTAppLogic.xcdatamodeld in Sources */,
+				EF445D9218E2B64100599FB6 /* Student.m in Sources */,
+				EF445D6218E2B57F00599FB6 /* JTTAppDelegate.m in Sources */,
+				EF445D6818E2B57F00599FB6 /* JTTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF445D6B18E2B57F00599FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF445D7D18E2B57F00599FB6 /* CoreDataOneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF445D7518E2B57F00599FB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF445D4D18E2B57F00599FB6 /* CoreDataOne */;
+			targetProxy = EF445D7418E2B57F00599FB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF445D5A18E2B57F00599FB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF445D5B18E2B57F00599FB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF445D6318E2B57F00599FB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF445D6418E2B57F00599FB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF445D7918E2B57F00599FB6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF445D7A18E2B57F00599FB6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF445D7E18E2B57F00599FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF445D7F18E2B57F00599FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF445D8118E2B57F00599FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataOne/CoreDataOne-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataOne/CoreDataOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF445D8218E2B57F00599FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataOne/CoreDataOne-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataOne/CoreDataOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF445D8418E2B57F00599FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataOne.app/CoreDataOne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataOne/CoreDataOne-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoreDataOneTests/CoreDataOneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF445D8518E2B57F00599FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreDataOne.app/CoreDataOne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataOne/CoreDataOne-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataOneTests/CoreDataOneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF445D4918E2B57F00599FB6 /* Build configuration list for PBXProject "CoreDataOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF445D7E18E2B57F00599FB6 /* Debug */,
+				EF445D7F18E2B57F00599FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF445D8018E2B57F00599FB6 /* Build configuration list for PBXNativeTarget "CoreDataOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF445D8118E2B57F00599FB6 /* Debug */,
+				EF445D8218E2B57F00599FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF445D8318E2B57F00599FB6 /* Build configuration list for PBXNativeTarget "CoreDataOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF445D8418E2B57F00599FB6 /* Debug */,
+				EF445D8518E2B57F00599FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF445D8A18E2B5C300599FB6 /* JTTAppLogic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF445D8B18E2B5C300599FB6 /* JTTAppLogic.xcdatamodel */,
+			);
+			currentVersion = EF445D8B18E2B5C300599FB6 /* JTTAppLogic.xcdatamodel */;
+			path = JTTAppLogic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF445D4618E2B57F00599FB6 /* Project object */;
+}
